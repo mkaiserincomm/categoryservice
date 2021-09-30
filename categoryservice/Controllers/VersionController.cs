@@ -13,7 +13,7 @@ namespace CategoryService.Controllers
         public VersionController(ILogger<VersionController> logger)
         {            
             _logger = logger;
-            _logger.LogInformation(new EventId(1001,"Constructor"),"RedisControler VersionController");
+            _logger.LogInformation(new EventId(1001,"Constructor"),"VersionController VersionController");
         }
 
         // GET: api/version
